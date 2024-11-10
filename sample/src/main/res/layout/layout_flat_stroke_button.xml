@@ -2,7 +2,9 @@
 <club.cred.neopop.PopFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Flat_Stroke_Button"
     android:layout_width="match_parent"
-    android:clickable="true">
+    android:clickable="true"
+    android:background="@drawable/rounded_flat_stroke_button_background"
+    android:neopop_center_surface_color="@color/blue">
 
     <ImageView
         android:layout_width="67dp"
