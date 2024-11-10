@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
   ~ /*
   ~  * Copyright 2022 Dreamplug Technologies Private Limited
   ~  * Licensed under the Apache License, Version 2.0 (the “License”);
@@ -45,6 +46,7 @@
         style="@style/AlignedButtons"
         android:layout_width="63dp"
         android:layout_height="40dp"
+        android:layout_marginTop="5dp"
         android:clickable="true"
         app:layout_constraintEnd_toEndOf="@id/left_space"
         app:layout_constraintTop_toTopOf="@id/center_top"
@@ -71,6 +73,7 @@
         android:layout_width="63dp"
         android:layout_height="40dp"
         android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/right_space"
@@ -99,7 +102,7 @@
         style="@style/AlignedButtons"
         android:layout_width="63dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/right_bottom"
         app:layout_constraintEnd_toEndOf="parent"
@@ -124,6 +127,7 @@
         android:id="@+id/right_bottom"
         android:layout_width="63dp"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@id/bottom_space"
