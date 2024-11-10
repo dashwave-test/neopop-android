@@ -12,4 +12,5 @@
     <color name="pop_yellow">#FFEB34</color>
     <color name="pop_green">#8DD04A</color>
     <color name="pop_grey">#3D3D3D</color>
+    <color name="blue">#0000FF</color>
 </resources>
