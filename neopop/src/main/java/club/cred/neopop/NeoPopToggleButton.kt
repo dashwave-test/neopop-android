@@ -50,6 +50,7 @@ class NeoPopToggleButton @JvmOverloads constructor(
 
             switch.thumbDrawable = createCheckableSelector(checkedDrawable, unCheckedDrawable)
             switch.trackDrawable = trackDrawable
+            switch.thumbTintList = AppCompatResources.getColorStateList(context, R.color.blue) // Set thumb color to blue
         }
         addView(switch)
         switch.setOnCheckedChangeListener { _, isChecked ->
